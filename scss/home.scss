@@ -9,3 +9,148 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.hero {
+  background: $primaryBackground;
+  & .main__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 98px;
+    & .hero__content {
+      overflow: hidden;
+      padding-top: 113px;
+      padding-bottom: 143px;
+      display: flex;
+      gap: 48px;
+      & .hero__information-block {
+        max-width: 567px;
+        & .hero__title {
+          font-size: $primarySizeFour;
+          color: $primaryBlackColor;
+          line-height: 120%;
+          text-transform: capitalize;
+          letter-spacing: -3px;
+          font-weight: 600;
+          padding-bottom: 16px;
+          &::before {
+            content: "";
+            width: 195px;
+            height: 1px;
+            background: $primaryInputColor;
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+        & .hero__subtitle {
+          max-width: 499px;
+          font-family: "Inter";
+          font-size: $primarySizeFive;
+          color: $primarySubtitleColor;
+          line-height: 28px;
+          font-weight: 500;
+          padding-bottom: 45px;
+          & .subtitle-mark {
+            font-family: "Inter";
+            font-size: $primarySizeFive;
+            line-height: 28px;
+            font-weight: 600;
+            color: $primaryBlackColor;
+          }
+        }
+        & .hero__buttons {
+          display: flex;
+          align-items: center;
+          gap: 23px;
+          padding-bottom: 82px;
+          & .explore__more {
+            @include buttonProp;
+            @include buttonBackground;
+            font-weight: 500;
+            padding: 18px 29px;
+          }
+          & .create {
+            border-radius: 12.412px;
+            border: 1.5px solid $primaryNaturalBlack;
+            padding: 17px 21px;
+            background: transparent;
+            letter-spacing: 0.163px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: $primarySizeThree;
+          }
+        }
+        & .hero__ratings-items {
+          display: flex;
+          align-items: center;
+          gap: 65px;
+          & .rating__item {
+            & .rating-title {
+              font-family: "Public Sans", sans-serif;
+              font-weight: 600;
+              text-align: center;
+              padding-bottom: 6px;
+              line-height: 125%;
+              font-size: $primarySizeSix;
+            }
+            & .rating-subitem {
+              font-family: "Inter";
+              color: $primarySubItemColor;
+              font-weight: 500;
+              line-height: 150%;
+              font-size: $primarySizeSeven;
+            }
+          }
+        }
+      }
+      & .hero__images-block {
+        display: flex;
+        gap: 22px;
+        & .hero__first-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 71.5px;
+          & .first-image {
+            max-width: 100%;
+            object-fit: cover;
+          }
+          & .hero__arrows-menu {
+            display: flex;
+            justify-content: space-between;
+            border-radius: 17.247px;
+            background: $primaryArrwosBgColor;
+            padding: 21.558px;
+            box-shadow: 0px 43.11688px 34.49351px -25.87013px rgba(15, 15, 15, 0.12);
+            width: 166px;
+            & .left-arrow,
+            .right-arrow {
+              background: transparent;
+            }
+            & .gray-line {
+              width: 2.156px;
+              height: 25.87px;
+              border-radius: 2.156px;
+              background: $primaryGrayLineColor;
+            }
+          }
+        }
+        & .hero__second-item {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          & .second__item {
+            display: flex;
+            gap: 63px;
+          }
+          & .second__nft-image {
+            max-width: 100%;
+            position: relative;
+            left: 10px;
+            height: 322px;
+          }
+        }
+      }
+    }
+  }
+}
