@@ -1,0 +1,12 @@
+@mixin buttonProp {
+      color: $primaryWhiteColor;
+      font-size: $primarySizeThree;
+      line-height: 150%;
+      text-transform: uppercase;
+      font-weight: 600;
+}
+@mixin buttonBackground {
+   background: $primaryBlackColor;
+   padding: 16.172px 24.258px;
+   border-radius: 16.172px;
+}

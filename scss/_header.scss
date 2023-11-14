@@ -1,0 +1,68 @@
+@import "colors";
+@import "variables";
+@import "mixins";
+
+.header {
+  font-family: "Inter", sans-serif;
+  & .header__nav {
+    & .header__container {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 46px 96px 0px 93px;
+    }
+  }
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & .nav {
+    & .nav__menu {
+      display: inline-flex;
+      align-items: center;
+      gap: 53.49px;
+      & .nav-item {
+        & .nav-link {
+          color: $primaryMenuColor;
+          font-size: $primarySizeOne;
+          text-transform: uppercase;
+          font-weight: 500;
+          line-height: 150%;
+        }
+      }
+    }
+  }
+  & .header__input-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    & .input__item {
+      max-width: 348px;
+      padding: 17px 81.64px 17px 69.81px;
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      justify-content: center;
+      border-radius: 20px;
+      background: $primaryInputBackground;
+      & .search-item {
+        background: $primaryInputBackground;
+        caret-color: $primaryInputColor;
+        color: $primaryInputColor;
+        &::placeholder {
+          color: $primaryInputColor;
+          font-size: $primarySizeTwo;
+          font-weight: 500;
+          line-height: 117.5%;
+          letter-spacing: -0.314px;
+        }
+      }
+    }
+    & .connect__wallet {
+      @include buttonProp;
+      @include buttonBackground;
+    }
+  }
+}
