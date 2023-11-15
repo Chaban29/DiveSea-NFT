@@ -3,6 +3,7 @@
 @import "mixins";
 
 .header {
+  background: $primaryBackground;
   font-family: "Inter", sans-serif;
   & .header__nav {
     & .header__container {

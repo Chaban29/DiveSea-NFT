@@ -1,12 +1,37 @@
 @mixin buttonProp {
-      color: $primaryWhiteColor;
-      font-size: $primarySizeThree;
-      line-height: 150%;
-      text-transform: uppercase;
-      font-weight: 600;
+  color: $primaryWhiteColor;
+  font-size: $primarySizeThree;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 @mixin buttonBackground {
-   background: $primaryBlackColor;
-   padding: 16.172px 24.258px;
-   border-radius: 16.172px;
+  background: $primaryBlackColor;
+  padding: 16.172px 24.258px;
+  border-radius: 16.172px;
+}
+
+@mixin arrowsButtonsMenu {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 17.247px;
+  background: $primaryArrwosBgColor;
+  padding: 21.558px;
+  box-shadow: 0px 43.11688px 34.49351px -25.87013px rgba(15, 15, 15, 0.12);
+  width: 166px;
+}
+
+@mixin grayLine {
+  width: 2.156px;
+  height: 25.87px;
+  border-radius: 2.156px;
+  background: $primaryGrayLineColor;
+}
+
+@mixin weeklyCard {
+  width: 281.126px;
+  height: 402.281px;
+  box-shadow: 38.81659px 11.7626px 58.81301px 0px rgba(199, 199, 199, 0.6);
+  border-radius: 23.479px;
+  background: $primaryWhiteColor;
 }
