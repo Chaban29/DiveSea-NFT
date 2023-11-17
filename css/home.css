@@ -437,7 +437,7 @@ body {
           flex-direction: column;
 }
 .weekly__content .weekly__cards-items .weekly__card .card-rating {
-  background: url(/images/Weekly\ Images/first.png), lightgray 50%/cover no-repeat;
+  background: url(), lightgray 50%/cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -553,7 +553,7 @@ body {
 }
 
 .two-card {
-  background: url(/Weekly\ Images/second.png), lightgray 50%/cover no-repeat;
+  background: url(), lightgray 50%/cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -582,7 +582,7 @@ body {
 }
 
 .third-card {
-  background: url(/Weekly\ Images/third.png), lightgray 50%/cover no-repeat;
+  background: url(), lightgray 50%/cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -611,7 +611,7 @@ body {
 }
 
 .four-card {
-  background: url(/Weekly\ Images/four.png), lightgray 50%/cover no-repeat;
+  background: url(), lightgray 50%/cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -640,7 +640,7 @@ body {
 }
 
 .five-card {
-  background: url(/Weekly\ Images/five.png), lightgray 50%/cover no-repeat;
+  background: url(), lightgray 50%/cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
