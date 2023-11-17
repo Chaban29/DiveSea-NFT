@@ -35,3 +35,11 @@
   border-radius: 23.479px;
   background: $primaryWhiteColor;
 }
+
+@mixin ExploreButton {
+  color: $primaryExploreButton;
+  font-size: $primarySizeOne;
+  font-weight: 500;
+  line-height: 39.92px;
+  letter-spacing: -0.088px;
+}

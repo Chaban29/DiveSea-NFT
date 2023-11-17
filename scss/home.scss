@@ -182,8 +182,7 @@ body {
       display: flex;
       flex-direction: column;
       & .card-rating {
-        background: url(),
-          lightgray 50% / cover no-repeat;
+        background: url(), lightgray 50% / cover no-repeat;
         background-size: cover;
         margin-top: 15px;
         border-radius: 18.784px;
@@ -395,8 +394,8 @@ body {
 }
 
 .collection {
-  min-height: 100vh;
-
+  padding-bottom: 100px;
+  background: $primaryBackground;
   & .main__container {
     width: 100%;
     max-width: 1440px;
@@ -410,6 +409,10 @@ body {
         right: 0;
         top: -116px;
         width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 26.37px;
+        padding-bottom: 21px;
         max-width: 365px;
         height: 246px;
         border-radius: 16px;
@@ -419,9 +422,6 @@ body {
         & .recent__info-item {
           display: flex;
           align-items: baseline;
-          padding-top: 26.37px;
-          padding-left: 24px;
-          padding-right: 24px;
           gap: 132px;
           padding-bottom: 34px;
 
@@ -445,6 +445,88 @@ body {
             background: transparent;
           }
         }
+
+        & .recent__info-card {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          & .recent__image-item {
+            display: flex;
+            align-items: center;
+            gap: 24.36px;
+            & .reccent-row {
+              width: 43px;
+              height: 43px;
+              background: url(/images/Reccent\ Images/first-reccent.svg);
+              background-repeat: no-repeat;
+              background-position: calc(100% - 70%);
+              border-radius: 100%;
+              display: flex;
+              align-items: flex-end;
+              justify-content: flex-end;
+
+              & .reccent-number--item {
+                padding: 0.92px 3.48px 1.2px 5.64px;
+                color: $primaryBlackColor;
+                font-size: $primaryScaleThree;
+                text-align: center;
+                font-weight: 700;
+                line-height: 150%;
+                letter-spacing: 0.096px;
+                border-radius: 100%;
+                background: $primaryWhiteColor;
+                display: block;
+                width: 17.125px;
+                height: 17.125px;
+              }
+            }
+          }
+          & .recent-subitem {
+            display: flex;
+            flex-direction: column;
+            gap: 7.68px;
+
+            & .recent__card-title {
+              color: $primaryBlackColor;
+              font-weight: 500;
+              line-height: 140%;
+              font-size: $primaryScaleFour;
+            }
+
+            & .recent__card-subitem {
+              font-weight: 400;
+              line-height: 150%;
+              color: $primaryGrayScaleTwo;
+              font-size: $primaryScaleFive;
+            }
+          }
+
+          & .recent__statisctic {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: flex-end;
+
+            & .recent__statisctic-info {
+              display: flex;
+              align-items: center;
+              gap: 2px;
+
+              & .statistic-number {
+                font-weight: 600;
+                line-height: 140%;
+                font-size: $primaryScaleFour;
+                color: $primaryBlackColor;
+              }
+            }
+            & .statistic-percent {
+              color: $primaryPercentColor;
+              font-size: $primaryPercent;
+              font-weight: 400;
+              line-height: 150%;
+            }
+          }
+        }
       }
     }
     & .collection__content {
@@ -457,6 +539,177 @@ body {
         font-weight: 600;
         line-height: 99.357%;
       }
+
+      & .collection__nav {
+        padding-top: 90.59px;
+        padding-bottom: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .collection-title {
+          color: $primaryNavColor;
+          font-size: $primaryNavSize;
+          font-weight: 500;
+          line-height: 130%;
+          letter-spacing: 0.22px;
+        }
+
+        & .collection-menu {
+          display: flex;
+          align-items: center;
+          gap: 92.52px;
+          & .collection-link {
+            color: $primaryNavColor;
+            font-size: $primaryNavSize;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 0.22px;
+          }
+        }
+      }
+      & .collection__rating-block {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 80px;
+        & .collection__rating-item {
+          padding-bottom: 39.5px;
+          border-bottom: 2px solid $primaryBoderBottom;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          & .collection__rating-titles {
+            display: flex;
+            gap: 23.65px;
+            & .collection-image {
+              border-radius: 1750.911px;
+              border: 3.502px solid #fff;
+              background: #fff;
+              height: 84.044px;
+              padding: 0px 1.751px;
+            }
+
+            & .collection__rating-headings {
+              & .rating-heading {
+                color: $primaryBlackColor;
+                font-size: $primaryCollectionSize;
+                font-weight: 500;
+                line-height: 140%;
+              }
+
+              & .rating-subitem {
+                color: $primaryGrayScaleTwo;
+                font-size: $primaryNavSize;
+                font-weight: 400;
+                line-height: 150%;
+              }
+            }
+          }
+        }
+        & .collection__profile-info {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          & .profile-item {
+            display: flex;
+            align-items: center;
+
+            & .volume-number {
+              font-weight: 600;
+              line-height: 140%;
+              font-size: $primaryCollectionTwo;
+              color: $primaryBlackColor;
+              padding-right: 81px;
+            }
+          }
+          & .collection-percent {
+            font-size: $primaryCollectionTwo;
+            color: $primaryPercentColor;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 0.245px;
+            padding-right: 63.33px;
+          }
+          & .profile-item-two {
+            display: flex;
+            align-items: center;
+            & .floor-price {
+              font-weight: 600;
+              line-height: 140%;
+              font-size: $primaryCollectionTwo;
+              color: $primaryBlackColor;
+              padding-right: 145px;
+            }
+          }
+          & .owners-item {
+            padding-right: 140px;
+            font-weight: 500;
+            line-height: 130%;
+            font-size: $primaryCollectionTwo;
+            color: $primaryBlackColor;
+          }
+          & .items {
+            font-weight: 500;
+            line-height: 130%;
+            font-size: $primaryCollectionTwo;
+            color: $primaryBlackColor;
+          }
+        }
+      }
+      & .collection__button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        & .collection-btn {
+          display: flex;
+          text-align: right;
+          align-items: center;
+          justify-content: flex-end;
+          background: transparent;
+          gap: 8.32px;
+          @include ExploreButton;
+        }
+        & .button-arrow {
+          display: flex;
+          align-items: center;
+          & .gray-line {
+            position: relative;
+            left: 8px;
+          }
+        }
+      }
     }
+  }
+}
+
+.recent__statistic-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reccent__row-two {
+  width: 43px;
+  height: 43px;
+  background: url(/images/Reccent\ Images/second-reccent.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 50%);
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  & .reccent-number--item {
+    padding: 0.92px 3.48px 1.2px 5.64px;
+    color: $primaryBlackColor;
+    font-size: $primaryScaleThree;
+    text-align: center;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.096px;
+    border-radius: 100%;
+    background: $primaryWhiteColor;
+    display: block;
+    width: 17.125px;
+    height: 17.125px;
   }
 }
