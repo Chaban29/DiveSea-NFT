@@ -1548,3 +1548,100 @@ body {
   padding-bottom: 103px;
   border-bottom: 2px solid #cbcbcb;
 }
+
+.inner {
+  min-height: 100vh;
+  background: #F9F9F9;
+}
+.inner .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 96px 0px 93px;
+}
+.inner .inner__content {
+  padding-top: 116px;
+}
+.inner .inner__content .inner__just {
+  max-width: 461px;
+}
+.inner .inner__content .inner__just .inner__just-title {
+  padding-bottom: 45px;
+  color: #C5C5C5;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 54.4px;
+  text-transform: capitalize;
+}
+.inner .inner__content .inner__just .inner__just-title .just__title-subitem {
+  display: block;
+  color: #18181B;
+  font-weight: 600;
+  line-height: 54.4px;
+  text-transform: capitalize;
+}
+.inner .inner__content .inner__just .inner__just-list {
+  padding-bottom: 70px;
+}
+.inner .inner__content .inner__just .inner__just-list .just-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.inner .inner__content .inner__just .inner__just-list .just-menu .just-item {
+  font-weight: 400;
+  line-height: 32px;
+  color: #ACADB9;
+  font-size: 16.172px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+.inner .inner__content .inner__just .inner__just-list .just-menu .just-item::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(/icon-check.svg);
+  background-repeat: no-repeat;
+}
+.inner .inner__content .inner__just .inner__button {
+  width: 164px;
+  height: 59px;
+  background: #000;
+  border-radius: 12px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.inner .inner__content .inner__just .inner__button .inner-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background: transparent;
+  font-size: 15.364px;
+  font-weight: 500;
+  line-height: 18.45px;
+  text-transform: capitalize;
+}

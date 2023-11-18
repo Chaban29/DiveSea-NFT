@@ -1017,3 +1017,84 @@ body {
   padding-bottom: 103px;
   border-bottom: 2px solid #cbcbcb;
 }
+
+.inner {
+  min-height: 100vh;
+  background: $primaryBackground;
+
+  & .main__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 96px 0px 93px;
+  }
+
+  & .inner__content {
+    padding-top: 116px;
+    & .inner__just {
+      max-width: 461px;
+      & .inner__just-title {
+        padding-bottom: 45px;
+        color: $primaryWeeklyTitleColor;
+        font-size: $primarySizeEight;
+        font-weight: 600;
+        line-height: 54.4px;
+        text-transform: capitalize;
+
+        & .just__title-subitem {
+          display: block;
+          color: $primaryInnerTitle;
+          font-weight: 600;
+          line-height: 54.4px;
+          text-transform: capitalize;
+        }
+      }
+      & .inner__just-list {
+        padding-bottom: 70px;
+        & .just-menu {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          & .just-item {
+            font-weight: 400;
+            line-height: 32px;
+            color: $primaryExploreButton;
+            font-size: $primarySizeThree;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+          }
+          & .just-item::before {
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url(/icon-check.svg);
+            background-repeat: no-repeat;
+          }
+        }
+      }
+      & .inner__button {
+        width: 164px;
+        height: 59px;
+        background: $primaryNaturalBlack;
+        border-radius: 12px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        & .inner-btn {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          justify-content: center;
+          color: $primaryWhiteColor;
+          background: transparent;
+          font-size: $primaryScaleFour;
+          font-weight: 500;
+          line-height: 18.45px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
