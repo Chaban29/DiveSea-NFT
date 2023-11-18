@@ -182,8 +182,7 @@ body {
       display: flex;
       flex-direction: column;
       & .card-rating {
-        background: url(/images/Weekly\ Images/first.png),
-          lightgray 50% / cover no-repeat;
+        background: url(/first.png), lightgray 50% / cover no-repeat;
         background-size: cover;
         margin-top: 15px;
         border-radius: 18.784px;
@@ -272,8 +271,7 @@ body {
 }
 
 .two-card {
-  background: url(/images/Weekly\ Images/second.png),
-    lightgray 50% / cover no-repeat;
+  background: url(/second.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -300,8 +298,7 @@ body {
 }
 
 .third-card {
-  background: url(/images/Weekly\ Images/third.png),
-    lightgray 50% / cover no-repeat;
+  background: url(/third.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -328,8 +325,7 @@ body {
 }
 
 .four-card {
-  background: url(/images/Weekly\ Images/four.png),
-    lightgray 50% / cover no-repeat;
+  background: url(/four.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -356,8 +352,7 @@ body {
 }
 
 .five-card {
-  background: url(/images/Weekly\ Images/five.png),
-    lightgray 50% / cover no-repeat;
+  background: url(/five.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -462,7 +457,7 @@ body {
             & .reccent-row {
               width: 43px;
               height: 43px;
-              background: url(/images/Reccent\ Images/first-reccent.svg);
+              background: url(/first-reccent.svg);
               background-repeat: no-repeat;
               background-position: calc(100% - 70%);
               border-radius: 100%;
@@ -696,7 +691,7 @@ body {
 .reccent__row-two {
   width: 43px;
   height: 43px;
-  background: url(/images/Reccent\ Images/second-reccent.svg);
+  background: url(/second-reccent.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 50%);
   border-radius: 100%;
