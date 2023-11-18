@@ -719,7 +719,6 @@ body {
 }
 
 .marketplace {
-  min-height: 100vh;
   background: $primaryBackground;
 
   & .main__container {
@@ -777,4 +776,244 @@ body {
       @include marketButtonProp;
     }
   }
+  & .marketplace__cards-items {
+    display: flex;
+    flex-direction: column;
+    gap: 67.72px;
+    padding-bottom: 103px;
+    & .marketplace__card {
+      padding: 14.16px;
+      width: 282.023px;
+      height: 403.564px;
+      border-radius: 23.554px;
+      background: $primaryWhiteColor;
+      box-shadow: 38.94041px 11.80013px 59.00063px 0px rgba(199, 199, 199, 0.6);
+
+      & .card__intro-item {
+        background: url(/first.png), lightgray 50% / cover no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 252.082px;
+        height: 253.661px;
+        border-radius: 18.843px;
+
+        & .intro-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: right;
+          position: relative;
+          top: 15px;
+          left: 120px;
+          width: 100%;
+          max-width: 120px;
+          display: block;
+          height: 37.76px;
+          padding: 7.44px 14.16px;
+          font-size: $primarySizeNine;
+          color: $primaryWhiteColor;
+          font-weight: 500;
+          line-height: 150%;
+          letter-spacing: 0.118px;
+          border-radius: 9.44px;
+          border: 1.18px solid rgba(28, 29, 32, 0.08);
+          background: rgba(28, 29, 32, 0.35);
+          box-shadow: 0px 4.72005px 14.16015px 0px rgba(28, 29, 32, 0.08);
+          backdrop-filter: blur(2.36002516746521px);
+        }
+      }
+      & .card-title {
+        color: $primaryBlackColor;
+        font-size: $primaryScaleOne;
+        padding-top: 19px;
+        font-weight: 600;
+        line-height: 140%;
+      }
+      & .card__current {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        & .current-title {
+          color: $primaryWeeklyCardTitle;
+          font-size: $primarySizeNine;
+          line-height: 150%;
+          letter-spacing: 0.118px;
+        }
+        & .ethereum__item {
+          display: flex;
+          gap: 3px;
+          align-items: center;
+          & .current-number {
+            color: $primaryBlackColor;
+            font-size: $primarySizeThree;
+            font-weight: 500;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+  }
+  & .collection__button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    & .collection-btn {
+      display: flex;
+      text-align: right;
+      align-items: center;
+      justify-content: flex-end;
+      background: transparent;
+      gap: 8.32px;
+      @include ExploreButton;
+    }
+    & .button-arrow {
+      display: flex;
+      align-items: center;
+      & .gray-line {
+        position: relative;
+        left: 8px;
+      }
+    }
+  }
+}
+
+.card__row {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .place-bid {
+    max-width: 121px;
+    color: $primaryWhiteColor;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.118px;
+    display: flex;
+    border-radius: 11.8px;
+    background: $primaryBlackColor;
+    justify-content: center;
+    align-items: center;
+    gap: 11.763px;
+    flex: 1 0 0;
+    height: 51.921px;
+    padding: 9.44px 18.88px;
+  }
+}
+
+.marketplace__cards-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marketplace__image-two {
+  background: url(/second.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 252.082px;
+  height: 253.661px;
+  border-radius: 18.843px;
+
+  & .intro-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+    top: 15px;
+    left: 120px;
+    width: 100%;
+    max-width: 120px;
+    display: block;
+    height: 37.76px;
+    padding: 7.44px 14.16px;
+    font-size: $primarySizeNine;
+    color: $primaryWhiteColor;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.118px;
+    border-radius: 9.44px;
+    border: 1.18px solid rgba(28, 29, 32, 0.08);
+    background: rgba(28, 29, 32, 0.35);
+    box-shadow: 0px 4.72005px 14.16015px 0px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(2.36002516746521px);
+  }
+}
+
+.marketplace__image-three {
+  background: url(/third.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 252.082px;
+  height: 253.661px;
+  border-radius: 18.843px;
+
+  & .intro-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+    top: 15px;
+    left: 120px;
+    width: 100%;
+    max-width: 120px;
+    display: block;
+    height: 37.76px;
+    padding: 7.44px 14.16px;
+    font-size: $primarySizeNine;
+    color: $primaryWhiteColor;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.118px;
+    border-radius: 9.44px;
+    border: 1.18px solid rgba(28, 29, 32, 0.08);
+    background: rgba(28, 29, 32, 0.35);
+    box-shadow: 0px 4.72005px 14.16015px 0px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(2.36002516746521px);
+  }
+}
+
+.marketplace__image-four {
+  background: url(/four.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 252.082px;
+  height: 253.661px;
+  border-radius: 18.843px;
+
+  & .intro-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+    top: 15px;
+    left: 120px;
+    width: 100%;
+    max-width: 120px;
+    display: block;
+    height: 37.76px;
+    padding: 7.44px 14.16px;
+    font-size: $primarySizeNine;
+    color: $primaryWhiteColor;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.118px;
+    border-radius: 9.44px;
+    border: 1.18px solid rgba(28, 29, 32, 0.08);
+    background: rgba(28, 29, 32, 0.35);
+    box-shadow: 0px 4.72005px 14.16015px 0px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(2.36002516746521px);
+  }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.explore-bottom {
+  padding-bottom: 103px;
+  border-bottom: 2px solid #cbcbcb;
 }
