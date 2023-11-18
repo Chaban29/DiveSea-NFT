@@ -43,3 +43,24 @@
   line-height: 39.92px;
   letter-spacing: -0.088px;
 }
+
+@mixin marketButton {
+  display: inline-flex;
+  height: 56.196px;
+  padding: 17.683px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.841px;
+  border-radius: 13.262px;
+  border: 2.21px solid $primaryBlackColor;
+  background: transparent;
+}
+
+@mixin marketButtonProp {
+  color: $primaryBlackScaleColor;
+  font-size: $primarySizeTwo;
+  font-family: "Manrope", "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.221px;
+}

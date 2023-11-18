@@ -1,10 +1,12 @@
 <svg width="85" height="85" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="icon">
 <g clip-path="url(#clip0_4_1973)">
 <rect width="84.0437" height="84.0437" rx="42.0219" fill="white"/>
 <rect width="84.0437" height="84.0437" rx="42.0219" fill="url(#pattern0)"/>
-<rect y="-7.0036" width="84.0437" height="91.0474" fill="url(#pattern1)"/>
+<rect id="image" y="-7.0036" width="84.0437" height="91.0474" fill="url(#pattern1)"/>
 </g>
 <rect x="1.75091" y="1.75091" width="80.5419" height="80.5419" rx="40.271" stroke="white" stroke-width="3.50182"/>
+</g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_4_1973" transform="translate(-0.166667) scale(0.00277778)"/>

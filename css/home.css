@@ -1094,3 +1094,134 @@ body {
   width: 17.125px;
   height: 17.125px;
 }
+
+.second-ornament {
+  max-width: 100%;
+}
+
+.marketplace {
+  min-height: 100vh;
+  background: #F9F9F9;
+}
+.marketplace .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 96px 0px 93px;
+}
+
+.marketplace__content .marketplace__titles {
+  padding-bottom: 66px;
+}
+.marketplace__content .marketplace__titles .marketplace__title {
+  text-align: center;
+  color: #141416;
+  font-weight: 600;
+  line-height: 26.916px;
+  font-size: 45.04px;
+}
+.marketplace__content .marketplace__buttons {
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 22px;
+}
+.marketplace__content .marketplace__buttons .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Manrope", "Poppins", sans-serif;
+  color: #1A202C;
+  font-size: 15.711px;
+  width: 72px;
+  background: transparent;
+  height: 56px;
+  padding: 17.68px 0px;
+  border-radius: 13.262px;
+  border: 2.21px solid #141416;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.221px;
+}
+.marketplace__content .marketplace__buttons .category {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 56.196px;
+  padding: 17.683px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8.841px;
+  border-radius: 13.262px;
+  border: 2.21px solid #141416;
+  background: transparent;
+  color: #1A202C;
+  font-size: 15.711px;
+  font-family: "Manrope", "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.221px;
+}
+.marketplace__content .marketplace__buttons .voice {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 56.196px;
+  padding: 17.683px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8.841px;
+  border-radius: 13.262px;
+  border: 2.21px solid #141416;
+  background: transparent;
+  color: #1A202C;
+  font-size: 15.711px;
+  font-family: "Manrope", "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.221px;
+}
+.marketplace__content .marketplace__buttons .price {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 56.196px;
+  padding: 17.683px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8.841px;
+  border-radius: 13.262px;
+  border: 2.21px solid #141416;
+  background: transparent;
+  color: #1A202C;
+  font-size: 15.711px;
+  font-family: "Manrope", "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.221px;
+}
