@@ -182,7 +182,7 @@ body {
       display: flex;
       flex-direction: column;
       & .card-rating {
-        background: url(../first.png), lightgray 50% / cover no-repeat;
+        background: url(../images/Weekly\ Images/first.png), lightgray 50% / cover no-repeat;
         background-size: cover;
         margin-top: 15px;
         border-radius: 18.784px;
@@ -271,7 +271,7 @@ body {
 }
 
 .two-card {
-  background: url(../second.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/second.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -298,7 +298,7 @@ body {
 }
 
 .third-card {
-  background: url(../third.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/third.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -325,7 +325,7 @@ body {
 }
 
 .four-card {
-  background: url(../four.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/four.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -353,7 +353,7 @@ body {
 
 
 .five-card {
-  background: url(../five.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/five.png), lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -458,7 +458,7 @@ body {
             & .reccent-row {
               width: 43px;
               height: 43px;
-              background: url(../first-reccent.svg);
+              background: url(../images/Reccent\ Images/first-reccent.svg);
               background-repeat: no-repeat;
               background-position: calc(100% - 70%);
               border-radius: 100%;
@@ -692,7 +692,7 @@ body {
 .reccent__row-two {
   width: 43px;
   height: 43px;
-  background: url(../second-reccent.svg);
+  background: url(../images/Reccent\ Images/second-reccent.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 50%);
   border-radius: 100%;
@@ -791,7 +791,7 @@ body {
       box-shadow: 38.94041px 11.80013px 59.00063px 0px rgba(199, 199, 199, 0.6);
 
       & .card__intro-item {
-        background: url(../first.png), lightgray 50% / cover no-repeat;
+        background: url(../images/MarketPlace\ Images/first.svg), lightgray 50% / cover no-repeat;
         background-size: cover;
         background-repeat: no-repeat;
         width: 252.082px;
@@ -909,7 +909,7 @@ body {
 }
 
 .marketplace__image-two {
-  background: url(../second.png), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/second.svg), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
@@ -943,7 +943,7 @@ body {
 }
 
 .marketplace__image-three {
-  background: url(../third.png), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/third.svg), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
@@ -977,7 +977,7 @@ body {
 }
 
 .marketplace__image-four {
-  background: url(../four.png), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/four.svg), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
@@ -1070,7 +1070,7 @@ body {
             display: block;
             width: 20px;
             height: 20px;
-            background: url(../icon-check.svg);
+            background: url(../images/Inner\ Images/icon.svg);
             background-repeat: no-repeat;
           }
         }
