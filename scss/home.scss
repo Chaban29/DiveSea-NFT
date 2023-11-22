@@ -1038,8 +1038,8 @@ body {
 }
 
 .inner {
-  min-height: 100vh;
   background: $primaryBackground;
+  padding-bottom: 180px;
 
   & .main__container {
     width: 100%;
@@ -1049,6 +1049,8 @@ body {
   }
 
   & .inner__content {
+    display: flex;
+    gap: 281px;
     padding-top: 116px;
     & .inner__just {
       max-width: 461px;
@@ -1112,6 +1114,420 @@ body {
           font-weight: 500;
           line-height: 18.45px;
           text-transform: capitalize;
+        }
+      }
+    }
+    & .bestsellers__block {
+      & .bestsellers__item {
+        padding-left: 21.18px;
+        width: 322.096px;
+        height: 510.06px;
+        border-radius: 14.119px;
+        border: 0.882px solid $primaryInnerColor;
+        background: $primaryWhiteColor;
+        box-shadow: 8.82456px 8.82456px 44.12281px 0px rgba(20, 20, 22, 0.1);
+
+        & .bestsellers__item-title {
+          width: 110px;
+          color: $primaryBlackScaleColor;
+          font-size: $primarySizeFive;
+          padding-top: 26.47px;
+          padding-bottom: 23.54px;
+          font-weight: 600;
+          line-height: 135%;
+          letter-spacing: 0.176px;
+        }
+        & .bestsellers__items-follow {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          & .follow__item {
+            display: flex;
+            justify-content: space-between;
+            & .follow__item-row {
+              display: flex;
+              gap: 10.45px;
+              & .follow__item-image {
+                display: flex;
+                justify-content: flex-end;
+                background: url(../images/BestSellers\ Images/first-avatar.svg);
+                width: 50.756px;
+                height: 50.756px;
+                border-radius: 41.791px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                & .follow-number {
+                  display: block;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: $primaryFollowCardItem;
+                  color: $primaryWhiteColor;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: 17.413px;
+                  width: 18px;
+                  height: 18px;
+                  background: $primaryFollowColor;
+                }
+              }
+              & .follow__item-titles {
+                & .follow-titles {
+                  & .first-item {
+                    color: $primaryFollowColor;
+                    font-size: $primaryScaleFive;
+                    font-weight: 500;
+                    line-height: 20.895px;
+                  }
+
+                  & .second-item {
+                    color: $primaryFollowColor;
+                    font-size: $primaryScaleFive;
+                    font-weight: 500;
+                    line-height: 20.895px;
+                  }
+                }
+
+                & .follow-subitem {
+                  color: $primaryFollowTwoColor;
+                  font-size: $primaryFollowCardItem;
+                  font-weight: 400;
+                  line-height: 17.413px;
+                }
+              }
+            }
+            & .follow {
+              margin-top: 3.9px;
+              display: flex;
+              width: 66px;
+              height: 28px;
+              background: transparent;
+              padding: 6.965px 13.93px;
+              justify-content: center;
+              align-items: center;
+              gap: 10.448px;
+              font-family: "DM Sans", "Poppins", sans-serif;
+              font-weight: 700;
+              font-size: $primaryScaleFive;
+              color: $primaryFollowColor;
+              line-height: 13.93px;
+              border-radius: 6.965px;
+              border: 1.741px solid $priamryFollowButton;
+              margin-right: 20px;
+            }
+          }
+        }
+        & .follow-second {
+          display: flex;
+          justify-content: flex-end;
+          background: url(../images/BestSellers\ Images/second-avatar.svg);
+          width: 50.756px;
+          height: 50.756px;
+          border-radius: 41.791px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          & .follow-number {
+            display: block;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $primaryFollowCardItem;
+            color: $primaryWhiteColor;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17.413px;
+            width: 18px;
+            height: 18px;
+            background: $primaryFollowColor;
+          }
+        }
+        & .follow-third {
+          display: flex;
+          justify-content: flex-end;
+          background: url(../images/BestSellers\ Images/third-avatar.svg);
+          width: 50.756px;
+          height: 50.756px;
+          border-radius: 41.791px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          & .follow-number {
+            display: block;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $primaryFollowCardItem;
+            color: $primaryWhiteColor;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17.413px;
+            width: 18px;
+            height: 18px;
+            background: $primaryFollowColor;
+          }
+        }
+        & .follow-four {
+          display: flex;
+          justify-content: flex-end;
+          background: url(../images/BestSellers\ Images/four-avatar.svg);
+          width: 50.756px;
+          height: 50.756px;
+          border-radius: 41.791px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          & .follow-number {
+            display: block;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $primaryFollowCardItem;
+            color: $primaryWhiteColor;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17.413px;
+            width: 18px;
+            height: 18px;
+            background: $primaryFollowColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+.unfollow {
+  margin-top: 3.9px;
+  display: flex;
+  width: 78px;
+  height: 28px;
+  padding: 6.965px 13.93px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.448px;
+  font-family: "DM Sans", "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: $primaryScaleFive;
+  color: $primaryFollowColor;
+  line-height: 13.93px;
+  border-radius: 6.965px;
+  border: 1.741px solid $priamryFollowButton;
+  margin-right: 20px;
+}
+
+.bestsellers__block {
+  & .recent__block {
+    position: relative;
+    right: 209px;
+    bottom: 145px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 26.37px;
+    padding-bottom: 21px;
+    max-width: 365px;
+    height: 246px;
+    border-radius: 16px;
+    border: 1px solid $primaryGrayScaleColor;
+    background: $primaryWhiteColor;
+    box-shadow: 10px 10px 50px 0px rgba(20, 20, 22, 0.1);
+    & .recent__info-item {
+      display: flex;
+      align-items: baseline;
+      gap: 132px;
+      padding-bottom: 34px;
+
+      & .recent__heading {
+        color: $primaryBlackScaleColor;
+        font-size: $primaryScaleOne;
+        font-weight: 600;
+        line-height: 135%;
+        letter-spacing: 0.2px;
+      }
+
+      & .third-dots {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        font-size: $primarySizeSix;
+        width: 10.699px;
+        height: 24px;
+        color: rgba(203, 213, 224, 1);
+        padding: 4px 0px;
+        background: transparent;
+      }
+    }
+
+    & .recent__info-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & .recent__image-item {
+        display: flex;
+        align-items: center;
+        gap: 24.36px;
+        & .reccent-row {
+          width: 43px;
+          height: 43px;
+          background: url(../images/Reccent\ Images/first-reccent.svg);
+          background-repeat: no-repeat;
+          background-position: calc(100% - 70%);
+          border-radius: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+
+          & .reccent-number--item {
+            padding: 0.92px 3.48px 1.2px 5.64px;
+            color: $primaryBlackColor;
+            font-size: $primaryScaleThree;
+            text-align: center;
+            font-weight: 700;
+            line-height: 150%;
+            letter-spacing: 0.096px;
+            border-radius: 100%;
+            background: $primaryWhiteColor;
+            display: block;
+            width: 17.125px;
+            height: 17.125px;
+          }
+        }
+      }
+      & .recent-subitem {
+        display: flex;
+        flex-direction: column;
+        gap: 7.68px;
+
+        & .recent__card-title {
+          color: $primaryBlackColor;
+          font-weight: 500;
+          line-height: 140%;
+          font-size: $primaryScaleFour;
+        }
+
+        & .recent__card-subitem {
+          font-weight: 400;
+          line-height: 150%;
+          color: $primaryGrayScaleTwo;
+          font-size: $primaryScaleFive;
+        }
+      }
+
+      & .recent__statisctic {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+
+        & .recent__statisctic-info {
+          display: flex;
+          align-items: center;
+          gap: 2px;
+
+          & .statistic-number {
+            font-weight: 600;
+            line-height: 140%;
+            font-size: $primaryScaleFour;
+            color: $primaryBlackColor;
+          }
+        }
+        & .statistic-percent {
+          color: $primaryPercentColor;
+          font-size: $primaryPercent;
+          font-weight: 400;
+          line-height: 150%;
+        }
+      }
+    }
+  }
+}
+
+.bestsellers__title-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  & .bestsellers__row-card {
+    display: flex;
+    position: relative;
+    left: 60.18px;
+    bottom: 35px;
+    justify-content: space-between;
+    width: 325.64px;
+    height: 84px;
+    padding: 11.393px;
+    border-radius: 13.291px;
+    background: linear-gradient(
+      217deg,
+      #fcfcfd -0.01%,
+      rgba(252, 252, 253, 0.6) 100%
+    );
+    box-shadow: 0px 18.98773px 28.48159px 0px rgba(70, 70, 70, 0.1);
+    backdrop-filter: blur(15.190183639526367px);
+    & .row__avatar-item {
+      display: flex;
+      gap: 11.39px;
+      & .black-cirle {
+        width: 7.595px;
+        height: 7.595px;
+        display: block;
+        border-radius: 50%;
+        background: $primaryBlackColor;
+        margin-top: 15.99px;
+      }
+      & .card__avatar {
+        display: flex;
+        justify-content: flex-end;
+        background: url(../images/BestSellers\ Images/card-avatar.svg);
+        width: 39.874px;
+        height: 39.874px;
+        border-radius: 34.178px;
+        & .green__item {
+          position: relative;
+          left: 4px;
+          bottom: 2px;
+          background: url(../images/BestSellers\ Images/green-poligon.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 17px;
+          height: 17px;
+          & .green-poligon {
+            padding: 2.85px;
+          }
+        }
+      }
+      & .row__card-info {
+        & .info__titles {
+          display: flex;
+          gap: 5.7px;
+          & .info-title {
+            color: $primaryRowInfo;
+            font-size: $primaryRowTitle;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.785px;
+          }
+          & .info-subitem {
+            color: $primaryBlackColor;
+            font-size: $primaryRowTitle;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.785px;
+          }
+        }
+        & .column__info--item {
+          display: flex;
+          flex-direction: column;
+          color: $primaryBlackColor;
+          font-weight: 600;
+          line-height: 18.988px;
+          font-size: $primaryScaleThree;
+          & .data {
+            font-size: $primaryScaleThree;
+            color: $primaryRowInfo;
+            font-weight: 400;
+            line-height: 18.988px;
+          }
         }
       }
     }
