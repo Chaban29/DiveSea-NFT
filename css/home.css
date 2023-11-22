@@ -929,11 +929,30 @@ body {
   gap: 23.65px;
 }
 .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles .collection-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84.044px;
+  height: 84.044px;
+  padding: 0px 1.751px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   border-radius: 1750.911px;
   border: 3.502px solid #fff;
   background: #fff;
-  height: 84.044px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
   padding: 0px 1.751px;
+  width: 84.044px;
+  height: 83.044px;
 }
 .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles .collection__rating-headings .rating-heading {
   color: #141416;

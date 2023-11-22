@@ -182,7 +182,8 @@ body {
       display: flex;
       flex-direction: column;
       & .card-rating {
-        background: url(../images/Weekly\ Images/first.png), lightgray 50% / cover no-repeat;
+        background: url(../images/Weekly\ Images/first.png),
+          lightgray 50% / cover no-repeat;
         background-size: cover;
         margin-top: 15px;
         border-radius: 18.784px;
@@ -271,7 +272,8 @@ body {
 }
 
 .two-card {
-  background: url(../images/Weekly\ Images/second.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/second.png),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -298,7 +300,8 @@ body {
 }
 
 .third-card {
-  background: url(../images/Weekly\ Images/third.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/third.png),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -325,7 +328,8 @@ body {
 }
 
 .four-card {
-  background: url(../images/Weekly\ Images/four.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/four.png),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -351,9 +355,9 @@ body {
   }
 }
 
-
 .five-card {
-  background: url(../images/Weekly\ Images/five.png), lightgray 50% / cover no-repeat;
+  background: url(../images/Weekly\ Images/five.png),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 15px;
   border-radius: 18.784px;
@@ -583,11 +587,21 @@ body {
             display: flex;
             gap: 23.65px;
             & .collection-image {
+              display: flex;
+              width: 84.044px;
+              height: 84.044px;
+              padding: 0px 1.751px;
+              justify-content: center;
+              align-items: center;
+              flex-shrink: 0;
               border-radius: 1750.911px;
               border: 3.502px solid #fff;
               background: #fff;
-              height: 84.044px;
+              object-fit: cover;
+              object-position: right;
               padding: 0px 1.751px;
+              width: 84.044px;
+              height: 83.044px;
             }
 
             & .collection__rating-headings {
@@ -791,7 +805,8 @@ body {
       box-shadow: 38.94041px 11.80013px 59.00063px 0px rgba(199, 199, 199, 0.6);
 
       & .card__intro-item {
-        background: url(../images/MarketPlace\ Images/first.svg), lightgray 50% / cover no-repeat;
+        background: url(../images/MarketPlace\ Images/first.svg),
+          lightgray 50% / cover no-repeat;
         background-size: cover;
         background-repeat: no-repeat;
         width: 252.082px;
@@ -909,7 +924,8 @@ body {
 }
 
 .marketplace__image-two {
-  background: url(../images/MarketPlace\ Images/second.svg), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/second.svg),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
@@ -943,7 +959,8 @@ body {
 }
 
 .marketplace__image-three {
-  background: url(../images/MarketPlace\ Images/third.svg), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/third.svg),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
@@ -977,7 +994,8 @@ body {
 }
 
 .marketplace__image-four {
-  background: url(../images/MarketPlace\ Images/four.svg), lightgray 50% / cover no-repeat;
+  background: url(../images/MarketPlace\ Images/four.svg),
+    lightgray 50% / cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   width: 252.082px;
