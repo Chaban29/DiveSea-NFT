@@ -1924,7 +1924,7 @@ body {
 .bestsellers__block .recent__block {
   position: relative;
   right: 209px;
-  bottom: 145px;
+  bottom: 150px;
   width: 100%;
   padding-left: 24px;
   padding-right: 24px;
@@ -2141,7 +2141,9 @@ body {
   height: 17px;
 }
 .bestsellers__title-row .bestsellers__row-card .row__avatar-item .card__avatar .green__item .green-poligon {
-  padding: 2.85px;
+  padding: 2px;
+  padding-left: 2.85px;
+  padding-top: 2.5px;
 }
 .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .info__titles {
   display: -webkit-box;
@@ -2181,4 +2183,114 @@ body {
   color: #949494;
   font-weight: 400;
   line-height: 18.988px;
+}
+
+.create__sell {
+  background: #f9f9f9;
+  padding-bottom: 160px;
+}
+.create__sell .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 96px 0px 93px;
+}
+.create__sell .main__container .create__intro-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 31px;
+  padding-bottom: 31px;
+  padding-left: 66px;
+  padding-top: 44.22px;
+  background: #141416;
+  border-radius: 30px;
+}
+.create__sell .main__container .create__intro-content .create__intro-block .create__intro-title {
+  color: #fff;
+  font-size: 45.04px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.45px;
+  padding-bottom: 12.48px;
+}
+.create__sell .main__container .create__intro-content .create__intro-block .create__intro-subtitle {
+  font-size: 20.265px;
+  color: #D4D4D4;
+  opacity: 0.6;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.203px;
+  padding-bottom: 50.84px;
+}
+.create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30.51px;
+}
+.create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons .create-explore {
+  font-family: "Outfit", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 19.831px 25.933px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15.255px;
+  border-radius: 12.204px;
+  background: #fff;
+  color: #141416;
+  font-size: 21.357px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.214px;
+}
+.create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons .create-sell {
+  font-family: "Outfit", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 19.831px 25.933px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15.255px;
+  background: transparent;
+  border-radius: 12.204px;
+  border: 2.288px solid #fff;
+  font-size: 21.357px;
+  font-weight: 600;
+  line-height: 130%;
+  color: #fff;
+  letter-spacing: 0.214px;
+}
+.create__sell .main__container .create__intro-content .create__intro-blur {
+  border-radius: 15.793px;
+  background: url(../images/Create\ Images/Intro-Image.svg), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 390px;
+  height: 249px;
+}
+.create__sell .main__container .create__intro-content .create__intro-blur .create__intro-image {
+  width: 390px;
+  height: 249px;
+}
+.create__sell .main__container .create__intro-content .create__intro-blur .create__intro-image #intro__shadow {
+  width: 500px;
+  height: 410px;
+  position: relative;
+  right: 60px;
+  bottom: 70px;
 }

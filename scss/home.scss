@@ -1321,7 +1321,7 @@ body {
   & .recent__block {
     position: relative;
     right: 209px;
-    bottom: 145px;
+    bottom: 150px;
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
@@ -1492,7 +1492,9 @@ body {
           width: 17px;
           height: 17px;
           & .green-poligon {
-            padding: 2.85px;
+            padding: 2px;
+            padding-left: 2.85px;
+            padding-top: 2.5px;
           }
         }
       }
@@ -1527,6 +1529,102 @@ body {
             color: $primaryRowInfo;
             font-weight: 400;
             line-height: 18.988px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.create__sell {
+  background: $primaryBackground;
+  padding-bottom: 160px;
+  & .main__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 96px 0px 93px;
+    & .create__intro-content {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 31px;
+      padding-bottom: 31px;
+      padding-left: 66px;
+      padding-top: 44.22px;
+      background: $primaryBlackColor;
+      border-radius: 30px;
+      & .create__intro-block {
+        & .create__intro-title {
+          color: $primaryWhiteColor;
+          font-size: $primaryScaleTwo;
+          font-weight: 600;
+          line-height: 130%;
+          letter-spacing: 0.45px;
+          padding-bottom: 12.48px;
+        }
+
+        & .create__intro-subtitle {
+          font-size: $primaryCreateSubtitle;
+          color: $primaryCreateSubColor;
+          opacity: 0.6;
+          font-weight: 500;
+          line-height: 130%;
+          letter-spacing: 0.203px;
+          padding-bottom: 50.84px;
+        }
+        & .create__intro-buttons {
+          display: flex;
+          gap: 30.51px;
+          & .create-explore {
+            font-family: "Outfit", sans-serif;
+            display: flex;
+            padding: 19.831px 25.933px;
+            justify-content: center;
+            align-items: center;
+            gap: 15.255px;
+            border-radius: 12.204px;
+            background: $primaryWhiteColor;
+            color: $primaryBlackColor;
+            font-size: $primaryCreateButton;
+            font-weight: 600;
+            line-height: 130%;
+            letter-spacing: 0.214px;
+          }
+
+          & .create-sell {
+            font-family: "Outfit", sans-serif;
+            display: flex;
+            padding: 19.831px 25.933px;
+            justify-content: center;
+            align-items: center;
+            gap: 15.255px;
+            background: transparent;
+            border-radius: 12.204px;
+            border: 2.288px solid $primaryWhiteColor;
+            font-size: $primaryCreateButton;
+            font-weight: 600;
+            line-height: 130%;
+            color: $primaryWhiteColor;
+            letter-spacing: 0.214px;
+          }
+        }
+      }
+      & .create__intro-blur {
+        border-radius: 15.793px;
+        background: url(../images/Create\ Images/Intro-Image.svg), lightgray 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 390px;
+        height: 249px;
+        & .create__intro-image {
+          width: 390px;
+          height: 249px;
+          & #intro__shadow {
+            width: 500px;
+            height: 410px;
+            position: relative;
+            right: 60px;
+            bottom: 70px;
           }
         }
       }
