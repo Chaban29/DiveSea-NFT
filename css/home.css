@@ -1706,7 +1706,7 @@ body {
 .inner .inner__content .inner__just .inner__just-list .just-menu .just-item {
   font-weight: 400;
   line-height: 32px;
-  color: #acadb9;
+  color: rgba(18, 20, 29, 0.7);
   font-size: 16.172px;
   display: -webkit-box;
   display: -ms-flexbox;

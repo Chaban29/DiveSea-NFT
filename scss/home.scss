@@ -5,6 +5,7 @@
 @import "colors";
 @import "mixins";
 @import "reset";
+@import "animations";
 
 body {
   font-family: "Poppins", sans-serif;
@@ -1079,7 +1080,7 @@ body {
           & .just-item {
             font-weight: 400;
             line-height: 32px;
-            color: $primaryExploreButton;
+            color: $primaryJustItemColor;
             font-size: $primarySizeThree;
             display: flex;
             align-items: center;
