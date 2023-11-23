@@ -1,0 +1,74 @@
+@import "colors";
+@import "variables";
+@import "mixins";
+
+.footer {
+  background-color: $primaryBlackColor;
+  & .footer__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 96px 0px 93px;
+
+    & .footer__content {
+      padding-top: 92px;
+      padding-bottom: 81px;
+
+      & .footer__menu {
+        padding-bottom: 44px;
+        border-bottom: 1px solid $primaryFooterBorderBottom;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .footer__logo {
+          display: flex;
+          align-items: center;
+          gap: 9.88px;
+          & .wave-title {
+            color: $primaryWhiteColor;
+            font-size: $primaryWaveSize;
+            font-weight: 600;
+            line-height: 130%;
+          }
+        }
+        & .footer__nav {
+          & .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 70px;
+            & .nav-item {
+              & .nav-link {
+                font-family: "Inter", "Poppins", sans-serif;
+                color: $primaryFooterNavColor;
+                font-size: $primarySizeOne;
+                font-weight: 500;
+                line-height: 26.743px;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+      & .footer__social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 57px;
+        & .footer__copyright {
+          & .footer-copy {
+            font-family: "Inter", "Poppins", sans-serif;
+            font-weight: 500;
+            line-height: 25px;
+            color: $primaryCopyrightColor;
+            font-size: $primaryCopyrightSize;
+          }
+        }
+        & .social__items {
+          display: flex;
+          align-items: center;
+          gap: 53px;
+        }
+      }
+    }
+  }
+}

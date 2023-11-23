@@ -112,6 +112,93 @@
   border-radius: 16.172px;
 }
 
+.footer {
+  background-color: #141416;
+}
+.footer .footer__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 96px 0px 93px;
+}
+.footer .footer__container .footer__content {
+  padding-top: 92px;
+  padding-bottom: 81px;
+}
+.footer .footer__container .footer__content .footer__menu {
+  padding-bottom: 44px;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .footer__container .footer__content .footer__menu .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9.88px;
+}
+.footer .footer__container .footer__content .footer__menu .footer__logo .wave-title {
+  color: #fff;
+  font-size: 29.922px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+.footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu .nav-item .nav-link {
+  font-family: "Inter", "Poppins", sans-serif;
+  color: #b9b9b9;
+  font-size: 17.829px;
+  font-weight: 500;
+  line-height: 26.743px;
+  text-transform: capitalize;
+}
+.footer .footer__container .footer__content .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 57px;
+}
+.footer .footer__container .footer__content .footer__social .footer__copyright .footer-copy {
+  font-family: "Inter", "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  color: #999;
+  font-size: 17px;
+}
+.footer .footer__container .footer__content .footer__social .social__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 53px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -2219,7 +2306,7 @@ body {
 }
 .create__sell .main__container .create__intro-content .create__intro-block .create__intro-subtitle {
   font-size: 20.265px;
-  color: #D4D4D4;
+  color: #d4d4d4;
   opacity: 0.6;
   font-weight: 500;
   line-height: 130%;
