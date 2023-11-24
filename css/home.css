@@ -1,12 +1,17 @@
 .header {
   background: #f9f9f9;
   font-family: "Inter", sans-serif;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
 .header .header__nav .header__container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 46px 96px 0px 93px;
+  padding: 46px 96px 26px 93px;
 }
 
 .header__content {
@@ -193,92 +198,67 @@
   gap: 53px;
 }
 
-@media screen and (max-width: 1351px) {
-  .marketplace__cards-row {
-    gap: 40px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-            flex: 0 1 25%;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
+@media screen and (max-width: 1340px) {
   .inner .inner__content {
-    gap: 180px;
+    gap: 170px;
   }
-}
-@media screen and (max-width: 1286px) {
-  .header .header__nav .header__container {
-    padding: 32px 68.27px 0 66.15px;
+  .header__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 40.26px;
+  }
+  .header__content .nav .nav__menu {
+    padding-right: 43.29px;
   }
   .divsea-logo {
-    width: 38px;
-    height: 38px;
+    max-width: 37.692px;
+    max-height: 37.692px;
   }
   .header__content .nav .nav__menu .nav-item .nav-link {
     font-size: 12.679px;
   }
+  .find-icon {
+    max-width: 15.304px;
+    max-height: 15.304px;
+  }
   .header__content .header__input-buttons .header__form .input__item .search-item {
     font-size: 11.174px;
   }
-  .header__content .header__input-buttons .header__form .input__item .find-icon {
-    width: 15.304px;
-    height: 15.304px;
+  .header__content .header__input-buttons .header__form {
+    max-width: 247px;
+    max-height: 40.537px;
   }
   .header__content .header__input-buttons .header__form {
-    max-width: 247.814px;
-    max-height: 40.537px;
-    padding: 13.57px 58.17px 13.97px 16.6px;
-  }
-  .header__content .header__input-buttons .header__form .input__item {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 13.57px 58.17px 13.97px 16.06px;
   }
   .header__content .header__input-buttons .connect__wallet {
     padding: 11.501px 17.252px;
+    border-radius: 11.501px;
     font-size: 11.501px;
-  }
-  .header__content .header__input-buttons {
-    gap: 20.75px;
-  }
-  .header__content {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .header__content .nav .nav__menu {
-    padding-left: 40.26px;
-    padding-right: 83.55px;
+    max-height: 40.54px;
   }
   .header .header__nav .header__container {
+    padding: 32px 68.27px 32px 66.15px;
     max-width: 1100px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__title {
     font-size: 53.339px;
-    max-width: 403px;
     padding-bottom: 11.39px;
-  }
-  .hero .main__container .hero__content .hero__information-block .hero__subtitle {
-    font-size: 12.801px;
-    max-width: 354px;
-    line-height: 155.556%;
-    padding-bottom: 31.82px;
-  }
-  .hero .main__container .hero__content .hero__information-block .hero__subtitle .subtitle-mark {
-    font-size: 12.801px;
-    line-height: 155.556%;
+    line-height: 120%;
+    max-width: 403.241px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__title::before {
-    max-width: 138px;
+    max-width: 138.681px;
   }
-  .hero .main__container .hero__content .hero__information-block .hero__buttons {
-    gap: 16.35px;
+  .hero .main__container .hero__content .hero__information-block .hero__subtitle,
+  .hero .main__container .hero__content .hero__information-block .hero__subtitle .subtitle-mark {
+    max-width: 354.88px;
+    line-height: 155.556%;
+    font-size: 12.801px;
+    padding-bottom: 31.82px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__buttons .explore__more {
-    padding: 12.8px 20.68px 12.87px 20.62px;
-    font-size: 11.501px;
-    border-radius: 8.827px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -288,6 +268,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    border-radius: 8.827px;
+    font-size: 11.501px;
+    padding: 13px 20px;
+    max-height: 42.671px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__buttons .create {
     display: -webkit-box;
@@ -299,132 +283,73 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 12.8px 15.21px 12.87px 14.94px;
     font-size: 11.501px;
     border-radius: 8.827px;
-    max-height: 42.91px;
+    padding: 13px 15px;
+    max-height: 42.671px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__buttons {
+    gap: 16.35px;
     padding-bottom: 58.32px;
   }
-  .hero .main__container .hero__content .hero__information-block .hero__ratings-items .rating__item .rating-title {
-    font-size: 26.151px;
-    padding-bottom: 4px;
-  }
-  .hero .main__container .hero__content .hero__information-block .hero__ratings-items .rating__item .rating-subitem {
-    font-size: 8.717px;
-  }
-  .hero .main__container .hero__content .hero__information-block .hero__ratings-items {
-    gap: 46.35px;
-  }
-  .hero .main__container {
-    max-width: 1100px;
-    padding-left: 66.15px;
-  }
-  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
-    max-height: 50%;
-  }
-  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__nft-image {
-    max-height: 50%;
-  }
   .hero .main__container .hero__content {
-    padding: 83.93px 0 101.7px 0;
-  }
-  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__item {
-    gap: 44.82px;
-  }
-  .hero .main__container .hero__content {
+    padding-top: 76.81px;
+    padding-bottom: 101.7px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .hero {
+    padding-top: 76.81px;
+  }
+  .hero .main__container {
+    max-width: 1100px;
+    padding-left: 69.7px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__ratings-items .rating__item .rating-title {
+    font-size: 26.151px;
+    padding-bottom: 3.93px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__ratings-items {
+    gap: 46.35px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__ratings-items .rating__item .rating-subitem {
+    font-size: 8.717px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
+    max-width: 278.072px;
+    max-height: 280.623px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__nft-image {
+    max-width: 226.978px;
+    max-height: 229.06px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__item {
+    gap: 44.82px;
+  }
+  .second-image {
+    max-width: 91.586px;
+    max-height: 88.342px;
+  }
+  .second-ornament {
+    max-width: 123.036px;
+    max-height: 136.71px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__first-item {
+    gap: 33.78px;
+  }
   .hero .main__container .hero__content .hero__images-block {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .bestsellers__title-row .bestsellers__row-card {
-    display: none;
-  }
-  .weekly__content .weekly__title-item {
-    padding: 49.79px 0 70.32px 0;
-  }
-  .weekly__content .weekly__title-item .weekly-title {
-    font-size: 32.003px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .card-rating .card-rating--title {
-    font-size: 10.038px;
-    text-align: center;
-    max-width: 89px;
-    margin-left: 75px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .card-rating .card-rating--title {
-    padding: 6.692px 10.038px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .card__title {
-    font-size: 15.058px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item .current-title {
-    font-size: 10.038px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item .current-block .current-subitem {
-    font-size: 11.501px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item .current {
-    font-size: 10.038px;
-    padding: 6.692px 13.385px;
-    max-width: 86px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .card-rating {
-    max-width: 179px;
-    max-height: 179.855px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card {
-    max-width: 199.932px;
-    max-height: 286.095px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item {
-    padding-bottom: 15px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item .current {
-    margin-right: 13.39px;
-  }
-  .two-card {
-    max-width: 179.855px;
-    height: 179.855px;
-    background-position: 75%;
-  }
-  .two-card .card-rating--title,
-  .third-card .card-rating--title,
-  .four-card .card-rating--title,
-  .five-card .card-rating--title {
-    font-size: 10.038px;
-    margin-left: 79px;
-    padding: 6.692px 10.038px;
-    margin-right: 15px;
-  }
-  .third-card,
-  .four-card,
-  .five-card {
-    max-width: 179.855px;
-    height: 179.855px;
-  }
-  .weekly__content .weekly__cards-items {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .card-left {
-    position: static;
-  }
-  .to-left,
-  .card-right {
-    position: static;
-  }
-  .collection .main__container .recent__block-item .recent__block {
-    right: -70px;
-  }
-  .weekly__content .weekly__cards-items .weekly__card .current__item .current {
-    margin-right: 0;
+    gap: 28.45px;
   }
 }
 * {
@@ -520,6 +445,7 @@ body {
 }
 
 .hero {
+  padding-top: 113px;
   background: #f9f9f9;
 }
 .hero .main__container {
@@ -2426,8 +2352,8 @@ body {
   gap: 11.39px;
 }
 .bestsellers__title-row .bestsellers__row-card .row__avatar-item .black-cirle {
-  width: 7.595px;
-  height: 7.595px;
+  width: 8px;
+  height: 8px;
   display: block;
   border-radius: 50%;
   background: #141416;

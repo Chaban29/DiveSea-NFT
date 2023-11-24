@@ -12,6 +12,7 @@ body {
 }
 
 .hero {
+  padding-top: 113px;
   background: $primaryBackground;
   & .main__container {
     width: 100%;
@@ -1469,8 +1470,8 @@ body {
       display: flex;
       gap: 11.39px;
       & .black-cirle {
-        width: 7.595px;
-        height: 7.595px;
+        width: 8px;
+        height: 8px;
         display: block;
         border-radius: 50%;
         background: $primaryBlackColor;

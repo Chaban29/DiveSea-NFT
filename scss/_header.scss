@@ -5,12 +5,17 @@
 .header {
   background: $primaryBackground;
   font-family: "Inter", sans-serif;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
   & .header__nav {
     & .header__container {
       width: 100%;
       max-width: 1440px;
       margin: 0 auto;
-      padding: 46px 96px 0px 93px;
+      padding: 46px 96px 26px 93px;
     }
   }
 }
