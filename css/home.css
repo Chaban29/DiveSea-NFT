@@ -761,6 +761,17 @@
   .footer .footer__container {
     padding-bottom: 20px;
   }
+  .bestsellers__block .recent__block {
+    bottom: 155px;
+  }
+  .inner .inner__content .inner__just .inner__just-list .just-menu .just-item::before {
+    max-width: 16px;
+    max-height: 16px;
+    background-size: cover;
+  }
+  .weekly__content .weekly__cards-items {
+    gap: 40px;
+  }
 }
 @media screen and (max-width: 1050px) {
   .header__content .header__input-buttons .connect__wallet {
@@ -931,6 +942,13 @@
   .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
     gap: 35px;
   }
+  .hero .main__container .hero__content .hero__information-block .hero__title {
+    font-size: 48px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
+    max-width: 278.072px;
+    max-height: 220.623px;
+  }
 }
 @media screen and (max-width: 801px) {
   .hero .main__container .hero__content {
@@ -943,9 +961,6 @@
   .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
     max-width: 250px;
     max-height: 240px;
-  }
-  .hero .main__container .hero__content .hero__information-block .hero__title {
-    font-size: 48px;
   }
   .hero .main__container .hero__content .hero__information-block .hero__subtitle,
   .hero .main__container .hero__content .hero__information-block .hero__subtitle .subtitle-mark {
@@ -1007,6 +1022,9 @@
 }
 @media screen and (min-width: 1025px) {
   .header__burger-menu {
+    display: none;
+  }
+  .divsea-title {
     display: none;
   }
 }
