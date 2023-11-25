@@ -151,4 +151,335 @@
   .hero .main__container .hero__content .hero__images-block {
     gap: 28.45px;
   }
+  .weekly__content .weekly__title-item .weekly-title {
+    font-size: 32.003px;
+  }
+  .weekly__content .weekly__title-item {
+    padding-top: 49.79px;
+    padding-bottom: 70.32px;
+  }
+  .weekly .main__container {
+    max-width: 1100px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .card-rating,
+  .two-card,
+  .third-card,
+  .four-card,
+  .five-card {
+    max-height: 179.855px;
+    max-width: 172.855px;
+    margin-top: 10px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .card-rating .card-rating--title,
+  .two-card .card-rating--title,
+  .third-card .card-rating--title,
+  .four-card .card-rating--title,
+  .five-card .card-rating--title {
+    margin-left: 76px;
+    margin-right: 10px;
+    padding: 6.69px 10.4px;
+    font-size: 10.038px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .card__title {
+    font-size: 15.058px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card {
+    max-width: 199.932px;
+    max-height: 286.095px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .current__item .current-title {
+    font-size: 10.038px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .current__item .current-block .current-subitem {
+    font-size: 11.711px;
+  }
+  .current-block > img {
+    max-width: 15.059px;
+    max-height: 15.059px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .current__item .current {
+    font-size: 10.038px;
+    padding: 6.69px 13.38px;
+    border-radius: 8.365px;
+    margin-right: 0;
+  }
+  .weekly__content .weekly__cards-items .weekly__card .current__item {
+    gap: 25.8px;
+    padding-bottom: 14.97px;
+  }
+  .weekly__content .weekly__cards-items .weekly__card {
+    padding-left: 13.39px;
+    padding-right: 13.39px;
+  }
+  .collection .main__container .collection__content .collection__title {
+    font-size: 32.003px;
+  }
+  .collection .main__container .collection__content .collection__nav {
+    padding-top: 64.43px;
+  }
+  .collection .main__container .collection__content .collection__nav .collection-title,
+  .collection .main__container .collection__content .collection__nav .collection-menu .collection-link {
+    font-size: 15.646px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .items {
+    font-size: 11.501px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .owners-item {
+    font-size: 11.501px;
+    padding-right: 99.58px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .profile-item-two .floor-price {
+    padding-right: 103.1px;
+    font-size: 17.433px;
+  }
+  .collection .main__container .collection__content .collection__nav .collection-menu {
+    gap: 65.8px;
+  }
+  .ethereum-icon {
+    max-width: 22.414px;
+    max-height: 22.414px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .collection-percent {
+    font-size: 17.433px;
+    padding-right: 45.56px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .profile-item .volume-number {
+    font-size: 17.433px;
+    padding-right: 57.27px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles .collection__rating-headings .rating-heading {
+    font-size: 19.923px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles .collection__rating-headings .rating-subitem {
+    font-size: 16.822px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles .collection-image {
+    max-width: 64px;
+    max-height: 60px;
+  }
+  .marketplace__content .marketplace__titles .marketplace__title {
+    font-size: 32.003px;
+  }
+  .marketplace__content .marketplace__buttons .all {
+    font-size: 11.004px;
+    max-width: 51.205px;
+    max-height: 39.826px;
+    padding: 12.576px;
+  }
+  .marketplace__content .marketplace__buttons .category {
+    font-size: 11.004px;
+    max-height: 39.966px;
+    padding: 12.576px;
+  }
+  .category-icon {
+    max-width: 17.913px;
+    max-height: 17.913px;
+  }
+  .marketplace__content .marketplace__buttons .voice {
+    font-size: 11.004px;
+    max-height: 39.966px;
+    padding: 12.576px;
+  }
+  .voice-icon {
+    max-width: 17.913px;
+    max-height: 17.913px;
+  }
+  .marketplace__content .marketplace__buttons .price {
+    font-size: 11.004px;
+    max-height: 39.966px;
+    padding: 12.576px;
+  }
+  .price-icon {
+    max-width: 17.913px;
+    max-height: 17.913px;
+  }
+  .marketplace__content .marketplace__buttons {
+    gap: 15.64px;
+  }
+  .marketplace__content .marketplace__titles {
+    padding-bottom: 46.14px;
+  }
+  .marketplace .main__container {
+    max-width: 1100px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card__intro-item,
+  .marketplace__image-two,
+  .marketplace__image-three,
+  .marketplace__image-four {
+    max-height: 180.429px;
+    max-width: 172.429px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card {
+    max-width: 200.57px;
+    max-height: 303.008px;
+    padding-top: 10.07px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card-title {
+    font-size: 15.058px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card__current .current-title {
+    font-size: 10.038px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card__current .ethereum__item .current-number {
+    font-size: 11.711px;
+  }
+  .ethereum__item > .ethereum-icon {
+    max-width: 15.107px;
+    max-height: 15.107px;
+  }
+  .card__row .place-bid {
+    font-size: 10.07px;
+    padding: 6.71px 13.43px;
+    border-radius: 8.392px;
+    max-width: 86px;
+    max-height: 36px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card__intro-item .intro-item,
+  .marketplace__image-two .intro-item,
+  .marketplace__image-three .intro-item,
+  .marketplace__image-four .intro-item {
+    left: 80px;
+    padding: 6.71px 10.7px;
+    max-width: 87.176px;
+    max-height: 26.855px;
+  }
+  .marketplace__content .marketplace__cards-items .marketplace__card .card__intro-item .intro-item,
+  .marketplace__image-two .intro-item,
+  .marketplace__image-three .intro-item,
+  .marketplace__image-four .intro-item {
+    font-size: 10.07px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inner .main__container {
+    max-width: 1100px;
+  }
+  .inner .inner__content .inner__just .inner__just-title {
+    font-size: 32.003px;
+    line-height: 120.889%;
+    max-width: 327px;
+    padding-bottom: 31px;
+  }
+  .inner .inner__content .inner__just .inner__just-list .just-menu .just-item {
+    font-size: 12.679px;
+  }
+  .inner .inner__content .inner__just .inner__button {
+    border-radius: 8.529px;
+    max-width: 116.635px;
+    max-height: 41.96px;
+    padding: 13.96px 10.31px 13.42px 14.94px;
+  }
+  .inner .inner__content .inner__just .inner__button .inner-btn {
+    font-size: 9.497px;
+    line-height: 125%;
+  }
+  .arrow-right {
+    max-width: 15.746px;
+    max-height: 15.746px;
+  }
+  .row-image--third {
+    max-width: 43.212px;
+    max-height: 43.212px;
+    border-radius: 7.427px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .info__titles .info-subitem,
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .info__titles .info-title {
+    font-size: 9.453px;
+    line-height: 171.429%;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .black-cirle {
+    max-width: 6px;
+    max-height: 6px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .column__info--item {
+    font-size: 8.102px;
+    line-height: 166.667%;
+  }
+  .bestsellers__title-row .bestsellers__row-card {
+    padding: 8.01px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .column__info--item .data {
+    font-size: 8.102px;
+  }
+  .bestsellers__title-row .bestsellers__row-card {
+    max-width: 231px;
+    max-height: 60px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-title {
+    font-size: 32.003px;
+    padding-bottom: 8.12px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-subtitle {
+    font-size: 14.412px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons .create-explore,
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons .create-sell {
+    border-radius: 8.688px;
+    max-height: 48px;
+    max-width: 130.321px;
+    font-size: 14.204px;
+    padding: 14.118px 18.462px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-buttons {
+    gap: 21.7px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-blur {
+    max-width: 262.426px;
+    max-height: 177.084px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-blur .create__intro-image #intro__shadow {
+    max-width: 375px;
+    max-height: 320px;
+  }
+  .collection .main__container .recent__block-item .recent__block {
+    right: -60px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .wave-logo {
+    max-width: 46.227px;
+    max-height: 46.227px;
+  }
+  .footer .footer__container .footer__content .footer__menu .footer__logo .wave-title {
+    font-size: 21.28px;
+  }
+  .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu .nav-item .nav-link {
+    font-size: 12.679px;
+  }
+  .footer .footer__container .footer__content .footer__social .footer__copyright .footer-copy {
+    font-size: 12.09px;
+  }
+  .instagram-item,
+  .in-item,
+  .facebook-item,
+  .twitter-item {
+    max-width: 16px;
+    max-height: 16px;
+  }
+  .footer .footer__container .footer__content .footer__social .social__items {
+    gap: 35px;
+  }
+  .footer .footer__container .footer__content {
+    padding-top: 78.95px;
+    padding-bottom: 58.72px;
+  }
+  .footer .footer__container .footer__content .footer__menu {
+    padding-bottom: 30.49px;
+  }
+  .footer .footer__container .footer__content .footer__social {
+    padding-top: 41.97px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .header__content .header__input-buttons .connect__wallet {
+    font-size: 8.501px;
+  }
 }
