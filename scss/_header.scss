@@ -80,3 +80,36 @@
     }
   }
 }
+
+.header__burger-menu {
+  width: 35.5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+  & .burger-item {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #282828;
+    border-radius: 8px;
+
+    &:nth-child(-n + 1) {
+      height: 3px;
+    }
+  }
+}
+
+.divsea-title {
+  font-family: "Poppins", sans-serif;
+  color: $primaryNaturalBlack;
+  font-size: $primaryDivSeaTitle;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
