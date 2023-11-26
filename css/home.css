@@ -1155,7 +1155,7 @@
     font-size: 11px;
   }
   .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
-    gap: 17px;
+    gap: 16px;
   }
   .bestsellers__title-row .bestsellers__row-card {
     left: -10px;
@@ -1165,6 +1165,14 @@
   }
   .hero .main__container {
     padding-left: 40.7px;
+  }
+  .footer .footer__container .footer__content .footer__social .footer__copyright .footer-copy {
+    font-size: 13.09px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .marketplace__content .marketplace__titles .marketplace__title {
+    line-height: 130%;
   }
 }
 @media screen and (max-width: 426px) {
