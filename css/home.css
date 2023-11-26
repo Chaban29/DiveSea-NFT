@@ -155,6 +155,7 @@
 }
 
 .footer {
+  border-top: 2px solid #94a3b8;
   background-color: #141416;
 }
 .footer .footer__container {
@@ -252,6 +253,7 @@
 .footer__scroll-item .top {
   position: relative;
   left: 70px;
+  bottom: 40px;
   max-width: 41px;
   border-radius: 50%;
   padding: 7px;
@@ -936,9 +938,6 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer .footer__container {
-    margin-top: 100px;
-  }
   .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
     gap: 35px;
   }
@@ -949,10 +948,28 @@
     max-width: 278.072px;
     max-height: 220.623px;
   }
+  .footer .footer__container {
+    margin-top: 0px;
+  }
+  .marketplace .main__container {
+    max-width: 865px;
+  }
+  .marketplace__cards-row {
+    gap: 80px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-title {
+    padding-bottom: 20px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-subtitle {
+    padding-bottom: 25px;
+  }
 }
 @media screen and (max-width: 801px) {
   .hero .main__container .hero__content {
     padding-top: 50px;
+  }
+  .hero .main__container .hero__content {
+    gap: 20px;
   }
   .header .header__nav .header__container {
     padding-top: 15px;
@@ -1014,10 +1031,169 @@
     max-width: 15px;
     max-height: 15px;
   }
+  .collection .main__container .collection__content .collection__rating-block .collection__rating-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media screen and (max-width: 670px) {
   .collection .main__container .recent__block-item .recent__block {
     display: none;
+  }
+  .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
+    gap: 25px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__rating-item .collection__rating-titles {
+    display: none;
+  }
+  .collection .main__container .collection__content .collection__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+  }
+  .collection .main__container .collection__content .collection__nav .collection-menu {
+    gap: 38px;
+  }
+  .collection .main__container .collection__content .collection__nav .collection-title,
+  .collection .main__container .collection__content .collection__nav .collection-menu .collection-link:not(.collection-link) {
+    font-size: 26.151px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-blur {
+    max-width: 300px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-blur .create__intro-image #intro__shadow {
+    max-width: 400px;
+  }
+  .hero .main__container .hero__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__content .header__input-buttons .connect__wallet {
+    display: none;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__title::before {
+    max-width: 34px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__title {
+    line-height: 120%;
+    letter-spacing: -1.896px;
+    text-transform: capitalize;
+  }
+  .hero .main__container .hero__content {
+    gap: 70px;
+    max-width: 550px;
+  }
+  .hero .main__container .hero__content .hero__images-block {
+    gap: 70px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__ratings-items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .marketplace .main__container {
+    max-width: 550px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-title {
+    text-align: center;
+    font-size: 22.299px;
+  }
+  .create__sell .main__container .create__intro-content .create__intro-block .create__intro-subtitle {
+    font-size: 10.927px;
+  }
+  .footer .footer__container .footer__content .footer__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .bestsellers__block .recent__block .recent__info-item {
+    padding-bottom: 15px;
+  }
+  .bestsellers__block .recent__block .recent__info-item {
+    gap: 83px;
+  }
+  .bestsellers__block .recent__block {
+    max-height: 165px;
+  }
+  .collection .main__container .collection__content .collection__nav .collection-menu {
+    gap: 28px;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .profile-item .volume-number,
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .collection-percent,
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .profile-item-two .floor-price,
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info .owners-item {
+    padding-right: 0;
+  }
+  .collection .main__container .collection__content .collection__rating-block .collection__profile-info {
+    gap: 35px;
+  }
+  .instagram-item,
+  .in-item,
+  .facebook-item,
+  .twitter-item {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .create__sell .main__container {
+    padding: 0 40px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__nft-image,
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
+    max-width: 200px;
+  }
+  .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu .nav-item .nav-link {
+    font-size: 11px;
+  }
+  .footer .footer__container .footer__content .footer__menu .footer__nav .nav-menu {
+    gap: 17px;
+  }
+  .bestsellers__title-row .bestsellers__row-card {
+    left: -10px;
+  }
+  .hero .main__container .hero__content .hero__images-block {
+    gap: 35px;
+  }
+  .hero .main__container {
+    padding-left: 40.7px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .header {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .header .header__nav .header__container {
+    padding: 20px;
+    border-bottom: 1px solid #CBCBCB;
+  }
+  .divsea-logo {
+    max-width: 46.411px;
+    max-height: 46.411px;
+  }
+  .hero .main__container {
+    padding-left: 14px;
+  }
+  .hero .main__container .hero__content {
+    max-width: 400px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__title::before {
+    display: none;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__title {
+    max-width: 355px;
+  }
+  .hero .main__container .hero__content .hero__images-block {
+    max-width: 400px;
   }
 }
 @media screen and (min-width: 1025px) {
