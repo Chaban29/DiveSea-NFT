@@ -50,7 +50,7 @@
           }
         }
       }
-      & .footer__social {
+      & .footer__social:not(.social-mobile) {
         display: flex;
         align-items: center;
         justify-content: space-between;

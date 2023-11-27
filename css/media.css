@@ -905,6 +905,178 @@
   .marketplace__content .marketplace__titles .marketplace__title {
     line-height: 130%;
   }
+  .hero .main__container .hero__content .hero__information-block .hero__subtitle,
+  .hero .main__container .hero__content .hero__information-block .hero__subtitle .subtitle-mark {
+    text-align: center;
+    max-width: 325px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__buttons {
+    gap: 17px;
+  }
+  .hero .main__container .hero__content .hero__information-block .hero__ratings-items {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .hero__arrows-menu {
+    max-width: 88.515px;
+    max-height: 36.785px;
+    padding: 11.495px;
+    border-radius: 9.196px;
+    background: var(--neutrals-8, #fcfcfd);
+    -webkit-box-shadow: 0px 22.99081px 18.39265px -13.79449px rgba(15, 15, 15, 0.12);
+            box-shadow: 0px 22.99081px 18.39265px -13.79449px rgba(15, 15, 15, 0.12);
+  }
+  .left-item,
+  .right-item {
+    max-width: 13.794px;
+    max-height: 13.794px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .hero__arrows-menu .gray-line,
+  .weekly__content .hero__arrows-menu .gray-line {
+    max-width: 1.15px;
+    max-height: 13.794px;
+    border-radius: 9.196px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__nft-image,
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
+    max-height: 171.742px;
+    max-width: 170.18px;
+  }
+  .hero .main__container .hero__content .hero__images-block {
+    gap: 25px;
+  }
+  .hero .main__container .hero__content .hero__images-block .hero__second-item .second__nft-image,
+  .hero .main__container .hero__content .hero__images-block .hero__first-item .first-image {
+    max-width: 208.489px;
+    max-height: 210.402px;
+  }
+  .weekly__content .hero__arrows-menu {
+    max-width: 88.515px;
+    max-height: 36.785px;
+    padding: 11.495px;
+    border-radius: 9.196px;
+    background: var(--neutrals-8, #fcfcfd);
+    -webkit-box-shadow: 0px 22.99081px 18.39265px -13.79449px rgba(15, 15, 15, 0.12);
+            box-shadow: 0px 22.99081px 18.39265px -13.79449px rgba(15, 15, 15, 0.12);
+  }
+  .collection .main__container .collection__content {
+    padding-top: 77px;
+  }
+  .bestsellers__block .recent__block {
+    padding: 10px;
+    max-height: 120px;
+    max-width: 174.994px;
+    right: 65px;
+    bottom: 110px;
+  }
+  .bestsellers__block .recent__block .recent__info-item .recent__heading {
+    font-size: 8.68px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__image-item .reccent-row,
+  .reccent__row-two {
+    max-width: 24px;
+    max-height: 24px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__image-item .reccent-row .reccent-number--item,
+  .reccent__row-two .reccent-number--item {
+    font-size: 4.862px;
+    max-width: 10px;
+    max-height: 10px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__image-item .reccent-row .reccent-number--item,
+  .bestsellers__block .recent__block .recent__info-card .recent__image-item .reccent-row .reccent-number--item,
+  .reccent__row-two .reccent-number--item {
+    padding: 0.92px 3.48px 1.2px 3.64px;
+  }
+  .reccent__row-two {
+    background-size: cover;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__image-item {
+    gap: 9px;
+  }
+  .recent__statistic-block {
+    gap: 11.28px;
+  }
+  .statistic-image {
+    max-width: 8px;
+    max-height: 8px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__statisctic .recent__statisctic-info .statistic-number {
+    font-size: 6.482px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__statisctic .statistic-percent {
+    font-size: 5.672px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent__statisctic {
+    gap: 3.24px;
+  }
+  .bestsellers__block .recent__block .recent__info-item {
+    padding-bottom: 11px;
+  }
+  .bestsellers__block .recent__block .recent__info-item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0;
+  }
+  .bestsellers__block .recent__block .recent__info-item .third-dots {
+    font-size: 16.151px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent-subitem .recent__card-title {
+    font-size: 6.482px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent-subitem .recent__card-subitem {
+    font-size: 5.672px;
+  }
+  .bestsellers__block .recent__block .recent__info-card .recent-subitem {
+    gap: 3.24px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .black-cirle {
+    max-width: 4px;
+    max-height: 4px;
+    margin-top: 7.99px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .card__avatar {
+    max-width: 20px;
+    max-height: 20px;
+    background-size: cover;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .card__avatar .green__item {
+    max-width: 5.5px;
+    max-height: 5.5px;
+    background-size: cover;
+    left: 0;
+    bottom: 0;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .card__avatar .green__item .green-poligon {
+    max-width: 2px;
+    max-height: 2px;
+    padding: 0;
+    max-width: 5.5px;
+    max-height: 10px;
+  }
+  .row-image--third {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .bestsellers__title-row .bestsellers__row-card {
+    max-width: 155.688px;
+    max-height: 40.058px;
+    padding: 7.447px;
+    bottom: 15px;
+    left: 10px;
+    border-radius: 6.355px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .info__titles .info-subitem,
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .info__titles .info-title {
+    font-size: 6.482px;
+  }
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .column__info--item .data,
+  .bestsellers__title-row .bestsellers__row-card .row__avatar-item .row__card-info .column__info--item {
+    line-height: 166.667%;
+    font-size: 5.672px;
+  }
 }
 @media screen and (max-width: 426px) {
   .header {

@@ -1,0 +1,37 @@
+@import "colors";
+@import "variables";
+
+.footer__mobile-nav {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  display: none;
+  & .footer__nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 6.61px;
+    & .footer-logo {
+      max-width: 43.472px;
+      max-height: 43.472px;
+    }
+    & .divsea-heading {
+      color: $primaryWhiteColor;
+      font-size: $primaryCreateSubtitle;
+      font-weight: 600;
+      line-height: 130%;
+    }
+  }
+}
+
+.social-mobile {
+  & .social__items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    & .social-item > img {
+      max-width: 16px;
+      max-height: 16px;
+    }
+  }
+}
